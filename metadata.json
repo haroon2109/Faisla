@@ -1,0 +1,6 @@
+{
+  "name": "Faisla",
+  "description": "A minimalist, deeply analytical decision-making assistant that leverages structured logical frameworks to resolve complex dilemmas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
