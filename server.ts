@@ -58,7 +58,7 @@ Finally, offer a calm, deeply supportive, and decisive actionable recommendation
 Ensure tone is calm, supportive, analytical, and supportive of human agency. Do not include superficial platitudes. All text must be in natural, refined, editorial English.`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-2.0-flash",
       contents: prompt,
       config: {
         responseMimeType: "application/json",
