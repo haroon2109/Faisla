@@ -412,7 +412,7 @@ export default function App() {
             FAISLA : STRUCTURED EDITORIAL ANALYSIS SYSTEM
           </p>
           <p className="text-xs text-[#1A1A1A]/60 max-w-lg mx-auto font-sans leading-relaxed">
-            All analytical content processed server-side through Gemini 3.5. Data resides secure inside your sandbox environment local storage.
+            All analytical content processed server-side through Gemini 2.5. Data resides secure inside your sandbox environment local storage.
           </p>
         </div>
       </footer>
