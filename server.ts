@@ -23,7 +23,7 @@ const ai = new GoogleGenAI({
 });
 
 // Server-side decision analysis endpoint
-app.post("/api/analyze", async (req, res) => {
+app.post([ "/api/analyze", /.*\/api\/analyze/ ], async (req, res) => {
   try {
     const { dilemma, context, customMetrics } = req.body;
 

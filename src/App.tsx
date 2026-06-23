@@ -50,7 +50,9 @@ export default function App() {
     setActiveAnalysis(null);
 
     try {
-      const res = await fetch("./api/analyze", {
+      const basePath = window.location.pathname.endsWith('/') ? window.location.pathname : window.location.pathname + '/';
+      const apiUrl = basePath + "api/analyze";
+      const res = await fetch(apiUrl, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
